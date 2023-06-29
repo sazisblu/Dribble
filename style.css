@@ -195,10 +195,10 @@ span
 
 #companies
 {
-    border: solid red 1px;
-    height: 60vh;
+    /* border: solid red 1px; */
+    height: 40vh;
     text-align: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
    /* box sizing prevents alteration of the size of div
    with the change in the padding of the content inside of it  maybe i should use it to fix the buttons' shape too*/
     padding-top: 30vh;
@@ -207,6 +207,18 @@ span
     margin-top: 5vh;
     border-radius: 25px;
 }
+
+#companies1
+{
+width: 180vh;
+/* border: solid 1px red; */
+height: 500vh;
+text-align: center;
+padding-bottom: 2000vh;
+padding-left: 20vh;
+
+}
+ 
 
 #thirdsec
 {
@@ -273,24 +285,30 @@ span
 
 #gif-1
 {
-    border: red solid 1px;
+    /* border: red solid 1px; */
     border-radius: 10px;
-    height: 50vh;
+    height: 70vh;
     width: 400vh;
     margin-left: 5vh;
     margin-right: 5vh;
     margin-top: 5vh;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 25vh;
+    /* padding-top: 25vh; */
 }
+
+/* #VERTI
+{
+    width:400VH ;
+    height: 400vh;
+} */
 
 #gif-2
 {
     margin-top: 5vh;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     border-radius: 10px;
-    height: 50vh;
+    height: 70vh;
     width: 400vh;
     margin-left: 5vh;
     margin-right: 5vh;
@@ -298,9 +316,14 @@ span
     margin-bottom: 5vh;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 25vh;
+    /* padding-top: 25vh; */
 }
-
+ 
+ #ANIMA
+{
+    width:100VH ;
+    height: 100vh;
+} 
 .articlebutt
 {
 background-color: #0d0c22;
@@ -574,19 +597,27 @@ cursor: pointer;
 table
 {
     margin-left: 10vh;
+    padding-left: 5VH;
 }
 
 th,td
 {
-    text-align: justify;
+    text-align: left;
     margin-left: 20vh;
     text-decoration: none;
     font-size: 2.3vh;
 }
  
+th
+{
+    margin-left: 3vh; 
+}
+
+
 td a
 {
     text-decoration: none;
     margin-left: 3vh;
     color: gray;
 }
+
