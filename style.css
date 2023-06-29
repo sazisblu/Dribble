@@ -1,0 +1,592 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.nav1
+{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbutt
+{
+    margin-left: 98vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav1 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2.3vh;
+    /* border: solid 2px red;  sued this to adjust the margins of the element*/
+    padding-bottom: 1px;
+    margin: 2.6vh;
+    transition: 0.3s;
+}
+
+#gopro
+{
+   color: #ea4c89;
+}
+.nav1 a:hover
+{
+color: gray;
+}
+
+#gopro :hover
+{
+    color: black;
+}
+#login
+{
+    background-color:white;
+    font-size:2.3vh;
+    border: 0px;
+    font-weight: 600;
+    transition: 0.3s;
+    border-radius: 10%;
+    height: 7vh;
+    width:auto;
+   
+    margin-right:3vh;
+}
+
+#login:hover
+{
+    background-color:  #ea4c89;
+    color: white;
+    cursor: pointer;
+}
+ 
+#signup
+{
+    background-color:black;
+    font-size:2.3vh;
+    border: 0px;
+    font-weight: 600;
+    transition: 0.3s;
+    border-radius: 10%;
+    height: 7vh;
+    width:auto;
+    color: white;
+}
+/* fix the shapes of the button with box-sizing property */
+
+#signup:hover
+{
+    background-color:  #ea4c89;
+    color:black;
+    cursor: pointer; 
+}
+
+.nav2
+{
+    /* position: fixed; */
+    height: 6vh;
+    /* z-index: 10000; */
+    padding-top: 3vh;
+    background-color: beige;
+    /* border: red solid 1px; */
+    width: 100%;
+
+}
+
+.nav2 a
+{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vh;
+    margin: 2.6vh;
+   text-align: justify;
+   transition: 0.3s;
+   font-weight: 550;
+   z-index: 10000;
+}
+
+.nav2 a:hover
+{
+    text-decoration: underline;
+}
+
+#firtsec
+{
+    /*border:solid red 1px;  done to find the correct margin size */
+    margin:18vh;
+    text-align: center;
+}
+
+#small
+{
+    font-weight: bold;
+    color: #ea4c89;
+    font-size: 2.6vh;
+    /* border: solid red 1px; this is to know the appropirate margin size */
+    margin: 2vh;
+    /* text-transform: capitalize; this only capitalilzes the first letter */
+   text-transform: uppercase;
+}
+
+#big
+{
+    font-size: 11vh;
+    font-family: 'Times New Roman', Times, serif;
+    color:#0d0c22;
+}
+
+#description
+{
+    color: #0d0c22;
+    font-weight: 600;
+    font-size: 2.6vh;
+    margin: 5vh;
+}
+
+#free
+{
+    border-radius: 15px;
+    border: 0px;
+    background-color: #0d0c22;
+    color: white;
+    font-weight: bold;
+    width: 18vh;
+    height: 10vh;
+    font-size: 2.3vh;
+    transition: 0.3s;
+    margin-bottom: 4vh;
+
+}
+/* fix the shape of the button with box sizing property */
+#free:hover
+{
+    background-color: black;
+    cursor: pointer;
+
+}
+
+span
+{
+    color: gray;
+    text-transform: capitalize;
+
+}
+
+#slog
+{
+    font-size: 2.6vh;
+    text-align: center;
+    color: #0d0c22;
+    font-weight: bold;
+
+}
+
+/* #secndsec */
+/* { */
+ /* i didnt wwant to waste away this div so just added 
+ it to style but no styling is needed */
+/* } */
+
+#companies
+{
+    border: solid red 1px;
+    height: 60vh;
+    text-align: center;
+    box-sizing: border-box;
+   /* box sizing prevents alteration of the size of div
+   with the change in the padding of the content inside of it  maybe i should use it to fix the buttons' shape too*/
+    padding-top: 30vh;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    border-radius: 25px;
+}
+
+#thirdsec
+{
+    /* border: red solid 1px; this border is used to visualize the area covered by this section so that correct margin could be applied */
+    margin-top: 10vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
+    color: #0d0c22;
+}
+
+#jobbrand
+{
+    font-size: 2.6vh;
+    border-radius: 25px;
+    border: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 5vh;
+    width: 15vh;
+    background-color:#fcd0ba ;
+    color: #0d0c22;
+}
+
+#designersearch
+{
+   
+    font-size: 2.6vh;
+    border-radius: 25px;
+    border: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 5vh;
+    width: 20vh; 
+    background-color: #b3fbe3;
+    color: #0d0c22;
+}
+
+.article-1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.article-2
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+
+.article-tit
+{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0d0c22;
+    font-size: 8vh;
+}
+
+.article-description
+{
+    font-size: 2.6vh;
+    color: #0d0c22;
+    margin-bottom: 5vh;
+}
+
+#gif-1
+{
+    border: red solid 1px;
+    border-radius: 10px;
+    height: 50vh;
+    width: 400vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25vh;
+}
+
+#gif-2
+{
+    margin-top: 5vh;
+    border: red solid 1px;
+    border-radius: 10px;
+    height: 50vh;
+    width: 400vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25vh;
+}
+
+.articlebutt
+{
+background-color: #0d0c22;
+border-radius: 15px;
+border: 0px;
+color: white;
+font-size: 2.6vh;
+width: 30vh;
+height: 10vh;
+font-weight: bold;
+}
+
+.articlebutt:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+
+#fourthsec
+{
+    margin-left: 40vh;
+    margin-right: 40vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    /* border: red 1px solid;  */
+    height: 50vh;
+    display: flex;
+    flex-direction:row;
+}
+
+.quote
+{
+    
+    border: solid gray 1px;
+    border-radius: 20px;
+    width: 80vh;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+
+.q
+{
+    text-align: left;
+    padding-left: 3vh;
+    padding-top: 5vh;
+    font-size: 3.9vh;
+}
+
+.name
+{
+padding-top: 20vh;
+padding-left: 5vh;
+font-size: 3vh;
+}
+
+.one-signal
+{
+    padding-top: 13vh;
+    /* border: solid red 1px; */
+    margin-left: 5vh;
+    border-radius: 23px;
+    background-image: linear-gradient(to right top, #00d4ff, #6fd0ff, #aacaff, #d6c5ff, #f4c2f1);
+}
+
+.one-signal img
+{
+    transition: 0.6s;
+}
+
+.one-signal img:hover
+{
+    /* transform: scale(1.02,1.03); */
+    /* transform: skewX(60deg); */
+    transform: rotate(360deg); 
+}
+
+#fifthsec
+{
+    
+     /* border: 1px solid red;  */
+    margin-top: 20vh;
+     margin-left:10vh;  
+    margin-right: 10vh;   
+    box-sizing: border-box;
+}
+.choosedribble
+{
+    text-align: center;
+    color: #0d0c22;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8vh;
+    padding-left: 35vh;
+    padding-right: 35vh;
+    margin-bottom: 15vh;
+}
+
+.advantages
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vh;
+    /* order: solid red 1px;  */
+    margin-bottom: 20vh;
+}
+
+.bullets
+{
+    margin-top: 5vh;
+    font-size: 2.6vh;
+    color: #0d0c22;
+}
+
+.bulltit
+{
+    color: #0d0c22;
+    margin-bottom: 3vh;
+    font-size:3vh;
+    font-weight: bold;
+}
+
+#a
+{
+    /* border: solid red 1px; */
+    text-align: center;
+    width: 28vh;
+    height:4vh;
+    background-color: #e3ebfd;
+}
+
+#b
+{
+    /* border: solid red 1px; */
+    text-align: center;
+    width: 28vh;
+    height:4vh;
+    background-color: #e6fbfe;
+}
+
+#c
+{
+    /* border: solid red 1px; */
+    text-align: center;
+    width: 23vh;
+    height:4vh;
+    background-color: #f6cde5;
+}
+
+i
+{
+    margin-bottom: 3vh;
+    width: 10vh;
+    font-size: 6vh;
+}
+
+.right img
+{
+    width: 90vh;
+    height: 60vh;
+    border-radius: 25px;
+}
+
+#sixthsec
+{
+    margin-top: 10vh;
+    /* border: red solid 0px; */
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, #f8d2da, #f9cfdd, #f9cde1, #f8cbe6, #f5caec);
+    color: #0d0c22;
+  
+}
+
+#pinktit
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13vh;
+    text-align: center;
+     /* border: solid red 1px;  */
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-top: 12vh;
+}
+
+#pinkdescription
+{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.free
+{
+    border-radius: 15px;
+    border: 0px;
+    background-color: #0d0c22;
+    color: white;
+    font-weight: bold;
+    width: 18vh;
+    height: 10vh;
+    font-size: 2.3vh;
+    transition: 0.3s;
+    margin-bottom: 4vh;
+    margin-left: 95vh;
+    margin-top: 3vh; 
+}
+
+.free:hover
+{
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.socials
+{
+    display: flex;
+    flex-direction: column;
+    /* border: #00d4ff solid 1px; */
+    width: 29vh;
+    font-size: 2.3vh;
+    color: gray;
+    text-align: left;
+
+}
+
+.socials img
+{
+    /* border: red 1px solid; */
+    width: 20vh;
+    height: 15vh;
+}
+
+.socials p
+{
+    margin-top: 1vh;
+    font-weight: bold;
+}
+
+#socialicons
+{
+    display: flex;
+    flex-direction: row;
+}
+.socials a i
+{
+font-size: 4vh;
+letter-spacing: 2px;
+}
+
+#socialicons a  i :hover
+{
+cursor: pointer;
+}
+
+.footer
+{
+    /* border: #00d4ff solid 1px; */
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+table
+{
+    margin-left: 10vh;
+}
+
+th,td
+{
+    text-align: justify;
+    margin-left: 20vh;
+    text-decoration: none;
+    font-size: 2.3vh;
+}
+ 
+td a
+{
+    text-decoration: none;
+    margin-left: 3vh;
+    color: gray;
+}
