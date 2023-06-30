@@ -25,10 +25,12 @@ body
     color: black;
     font-weight: bold;
     font-size: 2.3vh;
-    /* border: solid 2px red;  sued this to adjust the margins of the element*/
+    /* border: solid 2px red;   */
+
     padding-bottom: 1px;
     margin: 2.6vh;
     transition: 0.3s;
+    
 }
 
 #gopro
